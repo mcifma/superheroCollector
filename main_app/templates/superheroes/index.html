@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for s in superheroes %}
+    <div class="card">
+        {{ s }}
+    </div>
+{% endfor %}
+
+{% endblock %}
